@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CogAuth.services
+namespace CogAuth.services.Models
 {
-    public class Class1
+   public class User
     {
+        public string Token { get; set; }
     }
 }
