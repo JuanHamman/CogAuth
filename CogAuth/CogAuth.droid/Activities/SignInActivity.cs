@@ -21,6 +21,22 @@ namespace CogAuth.droid.Activities
             base.OnCreate(savedInstanceState);
 
             SetContentView(Resource.Layout.SignIn);
+
+            Button btnSignIn = FindViewById<Button>(Resource.Id.btn_SignIn_SignIn);
+            btnSignIn.Click += BtnNext_Click;
+
+            Button btnRegister = FindViewById<Button>(Resource.Id.btn_SignIn_Register);
+            btnRegister.Click += BtnRegister_Click;
+        }
+
+        private void BtnRegister_Click(object sender, EventArgs e)
+        {
+            StartActivity(typeof(RegistrationFaceActivity));
+        }
+
+        private void BtnNext_Click(object sender, EventArgs e)
+        {
+            StartActivity(typeof(SignInFaceActivity));
         }
     }
 }

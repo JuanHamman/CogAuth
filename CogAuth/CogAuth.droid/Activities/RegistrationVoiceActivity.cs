@@ -19,7 +19,7 @@ namespace CogAuth.droid.Activities
         {
             base.OnCreate(savedInstanceState);
 
-            // Create your application here
+
         }
     }
 }

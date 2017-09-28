@@ -19,7 +19,13 @@ namespace CogAuth.droid.Activities
         {
             base.OnCreate(savedInstanceState);
 
-            // Create your application here
+            Button btnNext = FindViewById<Button>(Resource.Id.btn_RegFace_Next);
+            btnNext.Click += BtnNext_Click;
+        }
+
+        private void BtnNext_Click(object sender, EventArgs e)
+        {
+            StartActivity(typeof(RegistrationVoiceActivity));
         }
     }
 }

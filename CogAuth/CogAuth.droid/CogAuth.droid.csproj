@@ -60,12 +60,12 @@
     <Compile Include="Activities\SignInActivity.cs" />
     <Compile Include="Activities\SignInFaceActivity.cs" />
     <Compile Include="Activities\SignInVoiceActivity.cs" />
+    <Compile Include="Commons\commons.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="GettingStarted.Xamarin" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Properties\AndroidManifest.xml" />
     <None Include="Assets\AboutAssets.txt" />
