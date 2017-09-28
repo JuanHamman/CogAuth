@@ -10,6 +10,11 @@ package cogauth.droid.cogauth.droid;
 public final class R {
     public static final class attr {
     }
+    public static final class id {
+        public static final int btnCapture=0x7f040001;
+        public static final int btnRegister=0x7f040002;
+        public static final int imgPhoto=0x7f040000;
+    }
     public static final class layout {
         public static final int registration_face=0x7f020000;
         public static final int registration_success=0x7f020001;
