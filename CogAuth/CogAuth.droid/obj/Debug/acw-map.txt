@@ -1,7 +1,3 @@
-CogAuth.droid.MainActivity, CogAuth.droid;md5bcd8a6681f97c952e478eaaef6fdc466.MainActivity
-CogAuth.droid.MainActivity, CogAuth.droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5bcd8a6681f97c952e478eaaef6fdc466.MainActivity
-CogAuth.droid.MainActivity;md5bcd8a6681f97c952e478eaaef6fdc466.MainActivity
-cogauth.droid.MainActivity;md5bcd8a6681f97c952e478eaaef6fdc466.MainActivity
 CogAuth.droid.Activities.RegistrationFaceActivity, CogAuth.droid;md51b6905f8e81e066cc7329652d4a6cbe1.RegistrationFaceActivity
 CogAuth.droid.Activities.RegistrationFaceActivity, CogAuth.droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md51b6905f8e81e066cc7329652d4a6cbe1.RegistrationFaceActivity
 CogAuth.droid.Activities.RegistrationFaceActivity;md51b6905f8e81e066cc7329652d4a6cbe1.RegistrationFaceActivity

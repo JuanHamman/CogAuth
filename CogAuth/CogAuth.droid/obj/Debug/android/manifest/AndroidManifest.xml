@@ -5,12 +5,6 @@
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <application android:allowBackup="true" android:label="@string/app_name" android:name="android.app.Application" android:debuggable="true">
-    <activity android:label="CogAuth.droid" android:name="md5bcd8a6681f97c952e478eaaef6fdc466.MainActivity">
-      <intent-filter>
-        <action android:name="android.intent.action.MAIN" />
-        <category android:name="android.intent.category.LAUNCHER" />
-      </intent-filter>
-    </activity>
     <activity android:label="RegistrationFaceActivity" android:name="md51b6905f8e81e066cc7329652d4a6cbe1.RegistrationFaceActivity" />
     <activity android:label="RegistrationResultActivity" android:name="md51b6905f8e81e066cc7329652d4a6cbe1.RegistrationResultActivity" />
     <activity android:label="RegistrationVoiceActivity" android:name="md51b6905f8e81e066cc7329652d4a6cbe1.RegistrationVoiceActivity" />

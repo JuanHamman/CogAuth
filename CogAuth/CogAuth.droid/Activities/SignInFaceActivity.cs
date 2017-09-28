@@ -19,6 +19,8 @@ namespace CogAuth.droid.Activities
         {
             base.OnCreate(savedInstanceState);
 
+            SetContentView(Resource.Layout.SignIn_Face);
+
             // Create your application here
         }
     }

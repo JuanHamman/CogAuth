@@ -6,6 +6,16 @@
     android:minWidth="25px"
     android:minHeight="25px">
     <Button
+        android:text="Start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_RegVoice_Start" />
+    <Button
+        android:text="Stop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_RegVoice_Stop" />
+    <Button
         android:text="Next"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

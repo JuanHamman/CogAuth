@@ -61,7 +61,6 @@
     <Compile Include="Activities\SignInFaceActivity.cs" />
     <Compile Include="Activities\SignInVoiceActivity.cs" />
     <Compile Include="Commons\commons.cs" />
-    <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

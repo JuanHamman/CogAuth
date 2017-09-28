@@ -19,6 +19,8 @@ namespace CogAuth.droid.Activities
         {
             base.OnCreate(savedInstanceState);
 
+            SetContentView(Resource.Layout.Registration_Face);
+
             Button btnNext = FindViewById<Button>(Resource.Id.btn_RegFace_Next);
             btnNext.Click += BtnNext_Click;
         }
