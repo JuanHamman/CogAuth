@@ -4,6 +4,7 @@
     android:layout_height="match_parent">
     <ImageView
         android:layout_width="match_parent"
+        android:src="@drawable/logo"
         android:layout_height="150dp"
         android:layout_marginTop="80dp" />
     <LinearLayout
@@ -24,6 +25,7 @@
             android:background="@drawable/button_transparent_white_border"
             android:layout_margin="8dp"
             android:layout_height="wrap_content"
-            android:id="@+id/btn_SignIn_Register" />
+            android:id="@+id/btn_SignIn_Register"
+            android:layout_marginBottom="12dp" />
     </LinearLayout>
 </RelativeLayout>

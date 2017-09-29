@@ -49,6 +49,9 @@ namespace CogAuth.droid
 			// aapt resource value: 0x7f020000
 			public const int button_transparent_white_border = 2130837504;
 			
+			// aapt resource value: 0x7f020001
+			public const int logo = 2130837505;
+			
 			static Drawable()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
