@@ -26,6 +26,8 @@ namespace CogAuth.droid
 		
 		public static void UpdateIdValues()
 		{
+			global::Plugin.AudioRecorder.Resource.String.ApplicationName = global::CogAuth.droid.Resource.String.ApplicationName;
+			global::Plugin.AudioRecorder.Resource.String.Hello = global::CogAuth.droid.Resource.String.Hello;
 		}
 		
 		public partial class Attribute
@@ -44,35 +46,41 @@ namespace CogAuth.droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f040000
-			public const int btn_RegFace_Next = 2130968576;
-			
 			// aapt resource value: 0x7f040001
-			public const int btn_RegSuccess_Next = 2130968577;
-			
-			// aapt resource value: 0x7f040004
-			public const int btn_RegVoice_Next = 2130968580;
+			public const int btnCapture = 2130968577;
 			
 			// aapt resource value: 0x7f040002
-			public const int btn_RegVoice_Start = 2130968578;
+			public const int btnNext = 2130968578;
 			
 			// aapt resource value: 0x7f040003
-			public const int btn_RegVoice_Stop = 2130968579;
-			
-			// aapt resource value: 0x7f040007
-			public const int btn_SignInFace_Next = 2130968583;
-			
-			// aapt resource value: 0x7f040009
-			public const int btn_SignInVoice_Next = 2130968585;
+			public const int btn_RegSuccess_Next = 2130968579;
 			
 			// aapt resource value: 0x7f040006
-			public const int btn_SignIn_Register = 2130968582;
+			public const int btn_RegVoice_Next = 2130968582;
+			
+			// aapt resource value: 0x7f040004
+			public const int btn_RegVoice_Start = 2130968580;
 			
 			// aapt resource value: 0x7f040005
-			public const int btn_SignIn_SignIn = 2130968581;
+			public const int btn_RegVoice_Stop = 2130968581;
+			
+			// aapt resource value: 0x7f040009
+			public const int btn_SignInFace_Next = 2130968585;
+			
+			// aapt resource value: 0x7f04000b
+			public const int btn_SignInVoice_Next = 2130968587;
 			
 			// aapt resource value: 0x7f040008
-			public const int btn_signInSuccess_Next = 2130968584;
+			public const int btn_SignIn_Register = 2130968584;
+			
+			// aapt resource value: 0x7f040007
+			public const int btn_SignIn_SignIn = 2130968583;
+			
+			// aapt resource value: 0x7f04000a
+			public const int btn_signInSuccess_Next = 2130968586;
+			
+			// aapt resource value: 0x7f040000
+			public const int imgPhoto = 2130968576;
 			
 			static Id()
 			{
@@ -121,8 +129,14 @@ namespace CogAuth.droid
 		public partial class String
 		{
 			
+			// aapt resource value: 0x7f030001
+			public const int ApplicationName = 2130903041;
+			
 			// aapt resource value: 0x7f030000
-			public const int app_name = 2130903040;
+			public const int Hello = 2130903040;
+			
+			// aapt resource value: 0x7f030002
+			public const int app_name = 2130903042;
 			
 			static String()
 			{

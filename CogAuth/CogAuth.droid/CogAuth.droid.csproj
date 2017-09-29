@@ -69,6 +69,8 @@
     <Compile Include="Commons\commons.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="App.cs" />
+    <Compile Include="BitmapHelpers.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

@@ -92,8 +92,8 @@ namespace CogAuth.droid.Activities
             }
             catch (Exception ex)
             {
-	...
-	}
+
+	        }
         }
         #endregion
     }
