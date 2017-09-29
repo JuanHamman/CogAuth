@@ -38,31 +38,43 @@ C:/Users/Juan Laptop/Source/Repos/CogAuth/CogAuth.droid/obj/Debug/android/assets
 /Users/fredkobo/Projects/CogAuth/CogAuth/CogAuth.droid/obj/Debug/res/values/strings.xml
 /Users/fredkobo/Projects/CogAuth/CogAuth/CogAuth.droid/obj/Debug/R.cs.flag
 /Users/fredkobo/Projects/CogAuth/CogAuth/CogAuth.droid/obj/Debug/uploadflags.txt
-C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\bin\Debug\CogAuth.droid.dll
-C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\bin\Debug\CogAuth.droid.pdb
-C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\bin\Debug\CogAuth.droid.CogAuth.droid.apk
-C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\bin\Debug\CogAuth.droid.CogAuth.droid-Signed.apk
-C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\bin\Debug\Plugin.AudioRecorder.dll
-C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\bin\Debug\Plugin.AudioRecorder.xml
-C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\obj\Debug\CogAuth.droid.csproj.CoreCompileInputs.cache
-C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\obj\Debug\CogAuth.droid.dll
-C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\obj\Debug\CogAuth.droid.pdb
-C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\obj\Debug\android\bin\CogAuth.droid.CogAuth.droid.apk
-C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\obj\Debug\res\layout\registration_face.xml
-C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\obj\Debug\res\layout\registration_voice.xml
-C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\obj\Debug\res\layout\registration_success.xml
-C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\obj\Debug\res\layout\signin_face.xml
-C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\obj\Debug\res\layout\signin_voice.xml
-C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\obj\Debug\res\layout\signin_success.xml
-C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\obj\Debug\res\layout\signin.xml
-C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\obj\Debug\res\values\strings.xml
-C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\obj\Debug\R.cs.flag
-C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\obj\Debug\uploadflags.txt
-C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\obj\Debug\CogAuth.droid.csprojResolveAssemblyReference.cache
-C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\bin\Debug\CogAuth.droid.dll.mdb
-C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\obj\Debug\android\assets\CogAuth.droid.dll.mdb
-C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\bin\Debug\CogAuth.services.dll
-C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\bin\Debug\CogAuth.services.pdb
-C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\bin\Debug\CogAuth.services.dll.mdb
-C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\obj\Debug\android\assets\CogAuth.services.dll.mdb
-C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\obj\Debug\res\layout\registrationguidelines.xml
+C:/Users/Juan Laptop/Source/Repos/CogAuth/CogAuth/CogAuth.droid/bin/Debug/CogAuth.droid.dll
+C:/Users/Juan Laptop/Source/Repos/CogAuth/CogAuth/CogAuth.droid/bin/Debug/CogAuth.droid.pdb
+C:/Users/Juan Laptop/Source/Repos/CogAuth/CogAuth/CogAuth.droid/bin/Debug/CogAuth.droid.CogAuth.droid.apk
+C:/Users/Juan Laptop/Source/Repos/CogAuth/CogAuth/CogAuth.droid/bin/Debug/CogAuth.droid.CogAuth.droid-Signed.apk
+C:/Users/Juan Laptop/Source/Repos/CogAuth/CogAuth/CogAuth.droid/bin/Debug/Plugin.AudioRecorder.dll
+C:/Users/Juan Laptop/Source/Repos/CogAuth/CogAuth/CogAuth.droid/bin/Debug/Plugin.AudioRecorder.xml
+C:/Users/Juan Laptop/Source/Repos/CogAuth/CogAuth/CogAuth.droid/obj/Debug/CogAuth.droid.csproj.CoreCompileInputs.cache
+C:/Users/Juan Laptop/Source/Repos/CogAuth/CogAuth/CogAuth.droid/obj/Debug/CogAuth.droid.dll
+C:/Users/Juan Laptop/Source/Repos/CogAuth/CogAuth/CogAuth.droid/obj/Debug/CogAuth.droid.pdb
+C:/Users/Juan Laptop/Source/Repos/CogAuth/CogAuth/CogAuth.droid/obj/Debug/android/bin/CogAuth.droid.CogAuth.droid.apk
+C:/Users/Juan Laptop/Source/Repos/CogAuth/CogAuth/CogAuth.droid/obj/Debug/res/layout/registration_face.xml
+C:/Users/Juan Laptop/Source/Repos/CogAuth/CogAuth/CogAuth.droid/obj/Debug/res/layout/registration_voice.xml
+C:/Users/Juan Laptop/Source/Repos/CogAuth/CogAuth/CogAuth.droid/obj/Debug/res/layout/registration_success.xml
+C:/Users/Juan Laptop/Source/Repos/CogAuth/CogAuth/CogAuth.droid/obj/Debug/res/layout/signin_face.xml
+C:/Users/Juan Laptop/Source/Repos/CogAuth/CogAuth/CogAuth.droid/obj/Debug/res/layout/signin_voice.xml
+C:/Users/Juan Laptop/Source/Repos/CogAuth/CogAuth/CogAuth.droid/obj/Debug/res/layout/signin_success.xml
+C:/Users/Juan Laptop/Source/Repos/CogAuth/CogAuth/CogAuth.droid/obj/Debug/res/layout/signin.xml
+C:/Users/Juan Laptop/Source/Repos/CogAuth/CogAuth/CogAuth.droid/obj/Debug/res/values/strings.xml
+C:/Users/Juan Laptop/Source/Repos/CogAuth/CogAuth/CogAuth.droid/obj/Debug/R.cs.flag
+C:/Users/Juan Laptop/Source/Repos/CogAuth/CogAuth/CogAuth.droid/obj/Debug/uploadflags.txt
+C:/Users/Juan Laptop/Source/Repos/CogAuth/CogAuth/CogAuth.droid/obj/Debug/CogAuth.droid.csprojResolveAssemblyReference.cache
+C:/Users/Juan Laptop/Source/Repos/CogAuth/CogAuth/CogAuth.droid/bin/Debug/CogAuth.droid.dll.mdb
+C:/Users/Juan Laptop/Source/Repos/CogAuth/CogAuth/CogAuth.droid/obj/Debug/android/assets/CogAuth.droid.dll.mdb
+C:/Users/Juan Laptop/Source/Repos/CogAuth/CogAuth/CogAuth.droid/bin/Debug/CogAuth.services.dll
+C:/Users/Juan Laptop/Source/Repos/CogAuth/CogAuth/CogAuth.droid/bin/Debug/CogAuth.services.pdb
+C:/Users/Juan Laptop/Source/Repos/CogAuth/CogAuth/CogAuth.droid/bin/Debug/CogAuth.services.dll.mdb
+C:/Users/Juan Laptop/Source/Repos/CogAuth/CogAuth/CogAuth.droid/obj/Debug/android/assets/CogAuth.services.dll.mdb
+C:/Users/Juan Laptop/Source/Repos/CogAuth/CogAuth/CogAuth.droid/obj/Debug/res/layout/registrationguidelines.xml
+/Users/fredkobo/Projects/CogAuth/CogAuth/CogAuth.droid/obj/Debug/CogAuth.droid.csprojResolveAssemblyReference.cache
+/Users/fredkobo/Projects/CogAuth/CogAuth/CogAuth.droid/bin/Debug/CogAuth.services.dll
+/Users/fredkobo/Projects/CogAuth/CogAuth/CogAuth.droid/bin/Debug/CogAuth.services.pdb
+/Users/fredkobo/Projects/CogAuth/CogAuth/CogAuth.droid/bin/Debug/CogAuth.services.dll.mdb
+/Users/fredkobo/Projects/CogAuth/CogAuth/CogAuth.droid/obj/Debug/res/layout/registrationguidelines.xml
+/Users/fredkobo/Projects/CogAuth/CogAuth/CogAuth.droid/obj/Debug/res/values/colors.xml
+/Users/fredkobo/Projects/CogAuth/CogAuth/CogAuth.droid/obj/Debug/res/values/styles.xml
+/Users/fredkobo/Projects/CogAuth/CogAuth/CogAuth.droid/obj/Debug/res/drawable/button_filled_blue.xml
+/Users/fredkobo/Projects/CogAuth/CogAuth/CogAuth.droid/obj/Debug/res/drawable/button_filled_green.xml
+/Users/fredkobo/Projects/CogAuth/CogAuth/CogAuth.droid/obj/Debug/res/drawable/button_filled_orange.xml
+/Users/fredkobo/Projects/CogAuth/CogAuth/CogAuth.droid/obj/Debug/res/drawable/button_transparent_white_border.xml
+/Users/fredkobo/Projects/CogAuth/CogAuth/CogAuth.droid/obj/Debug/res/drawable/logo.png
