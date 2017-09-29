@@ -17,14 +17,15 @@
         <Button
             android:id="@+id/btnCapture"
             android:layout_width="match_parent"
-            android:layout_height="60dp"
+            style="@style/OrangeButtonStyle"
             android:layout_alignParentBottom="true"
             android:text="Capture" />
         <Button
             android:id="@+id/btnNext"
             android:layout_width="match_parent"
-            android:layout_height="60dp"
+            style="@style/GreenButtonStyle"
             android:layout_alignParentBottom="true"
+            android:layout_marginBottom="12dp"
             android:text="Next" />
     </LinearLayout>
 </RelativeLayout>

@@ -10,22 +10,27 @@ package cogauth.droid.cogauth.droid;
 public final class R {
     public static final class attr {
     }
+    public static final class color {
+        public static final int orange=0x7f050000;
+    }
     public static final class drawable {
-        public static final int button_transparent_white_border=0x7f020000;
-        public static final int logo=0x7f020001;
+        public static final int button_filled_green=0x7f020000;
+        public static final int button_filled_orange=0x7f020001;
+        public static final int button_transparent_white_border=0x7f020002;
+        public static final int logo=0x7f020003;
     }
     public static final class id {
-        public static final int btnCapture=0x7f060001;
-        public static final int btnNext=0x7f060002;
-        public static final int btn_RegSuccess_Next=0x7f060003;
-        public static final int btn_RegVoice_Next=0x7f060005;
-        public static final int btn_RegVoice_Start=0x7f060004;
-        public static final int btn_RegVoice_play=0x7f060006;
-        public static final int btn_SignInVoice_Next=0x7f06000a;
-        public static final int btn_SignIn_Register=0x7f060008;
-        public static final int btn_SignIn_SignIn=0x7f060007;
-        public static final int btn_signInSuccess_Next=0x7f060009;
-        public static final int imgPhoto=0x7f060000;
+        public static final int btnCapture=0x7f070001;
+        public static final int btnNext=0x7f070002;
+        public static final int btn_RegSuccess_Next=0x7f070003;
+        public static final int btn_RegVoice_Next=0x7f070005;
+        public static final int btn_RegVoice_Start=0x7f070004;
+        public static final int btn_RegVoice_play=0x7f070006;
+        public static final int btn_SignInVoice_Next=0x7f07000a;
+        public static final int btn_SignIn_Register=0x7f070008;
+        public static final int btn_SignIn_SignIn=0x7f070007;
+        public static final int btn_signInSuccess_Next=0x7f070009;
+        public static final int imgPhoto=0x7f070000;
     }
     public static final class layout {
         public static final int registration_face=0x7f030000;
@@ -42,6 +47,8 @@ public final class R {
         public static final int app_name=0x7f040002;
     }
     public static final class style {
-        public static final int TransparentButtonStyle=0x7f050000;
+        public static final int GreenButtonStyle=0x7f060002;
+        public static final int OrangeButtonStyle=0x7f060001;
+        public static final int TransparentButtonStyle=0x7f060000;
     }
 }
