@@ -18,11 +18,12 @@ public final class R {
         public static final int window_background=0x7f050004;
     }
     public static final class drawable {
-        public static final int button_filled_blue=0x7f020000;
-        public static final int button_filled_green=0x7f020001;
-        public static final int button_filled_orange=0x7f020002;
-        public static final int button_transparent_white_border=0x7f020003;
-        public static final int logo=0x7f020004;
+        public static final int background=0x7f020000;
+        public static final int button_filled_blue=0x7f020001;
+        public static final int button_filled_green=0x7f020002;
+        public static final int button_filled_orange=0x7f020003;
+        public static final int button_transparent_white_border=0x7f020004;
+        public static final int logo=0x7f020005;
     }
     public static final class id {
         public static final int btnCapture=0x7f070001;

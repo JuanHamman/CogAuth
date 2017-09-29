@@ -14,6 +14,7 @@ using CogAuth.droid.Commons;
 using Java.IO;
 using Environment = Android.OS.Environment;
 using Uri = Android.Net.Uri;
+using CogAuth.services.Implementation;
 
 namespace CogAuth.droid.Activities
 {
@@ -23,12 +24,13 @@ namespace CogAuth.droid.Activities
 		ImageView imgPhoto;
 		Button btnNext;
 		Button btnCapture;
+        AlertDialog SignInResultDialog;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
 			base.OnCreate(savedInstanceState);
 
-			SetContentView(Resource.Layout.Registration_Face);
+			SetContentView(Resource.Layout.SignIn_Face);
 
 
 
@@ -44,12 +46,51 @@ namespace CogAuth.droid.Activities
 			}
         }
 
-		private void BtnNext_Click(object sender, EventArgs e)
+		private async void BtnNext_Click(object sender, EventArgs e)
 		{
-			StartActivity(typeof(RegistrationVoiceActivity));
+            try
+            {
+                ProgressDialog pd = new ProgressDialog(this);
+                pd.SetMessage("Fazureing Sign in...");
+                pd.Show();
+
+                UserService us = new UserService();
+                var result = await us.SignIn(commons.Instance.image, commons.Instance.Audio.ToString(), "");
+
+                if (!string.IsNullOrEmpty(result.UserName))
+                {
+                    StartActivity(typeof(RegistrationVoiceActivity));
+                    pd.Hide();
+                    Toast.MakeText(this,"Welcome " + result.UserName, ToastLength.Long);
+                }
+                else
+                {
+                    pd.Hide();
+                    SignInResultDialog = new AlertDialog.Builder(this)
+
+            .SetCancelable(false)
+            .SetTitle("Invalid user")
+            .SetMessage("Sign in failed, please try again")
+            .SetPositiveButton("Ok", SignInDialogPositive)
+            .Create();
+
+                    SignInResultDialog.Show();
+                }
+            }
+            catch (Exception ex)
+            {
+                return;
+            }
+
+           
 		}
 
-		void BtnCapture_Click(object sender, EventArgs e)
+        private void SignInDialogPositive(object sender, DialogClickEventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        void BtnCapture_Click(object sender, EventArgs e)
 		{
 			Intent intent = new Intent(MediaStore.ActionImageCapture);
 

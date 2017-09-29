@@ -114,7 +114,6 @@
     <AndroidResource Include="Resources\values\Strings.xml" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Resources\drawable\" />
     <Folder Include="Resources\mipmap-hdpi\" />
     <Folder Include="Resources\mipmap-mdpi\" />
     <Folder Include="Resources\mipmap-xhdpi\" />
@@ -126,6 +125,9 @@
       <Project>{961ca934-b84e-41d0-b0da-b1e1c51e3485}</Project>
       <Name>CogAuth.services</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\background.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

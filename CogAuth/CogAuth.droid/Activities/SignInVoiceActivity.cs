@@ -208,7 +208,8 @@ namespace CogAuth.droid.Activities
 
                 UserService us = new UserService();
                 var result = await us.SignIn(commons.Instance.image, commons.Instance.Audio.ToString(), "");
-                if (result)
+
+                if (!string.IsNullOrEmpty (result.UserName))
                 {
                     StartActivity(typeof(RegistrationResultActivity));
                     pd.Hide();
