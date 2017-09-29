@@ -101,7 +101,6 @@ class MonoPackageManager_Resources {
 		"CogAuth.droid.dll",
 		"CogAuth.services.dll",
 		"Plugin.AudioRecorder.dll",
-		"Newtonsoft.Json.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};

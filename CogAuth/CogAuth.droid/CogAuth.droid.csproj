@@ -98,6 +98,7 @@
     <AndroidResource Include="Resources\layout\SignIn.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
+    <AndroidResource Include="Resources\drawable\button_transparent_white_border.xml" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\values\Strings.xml" />
