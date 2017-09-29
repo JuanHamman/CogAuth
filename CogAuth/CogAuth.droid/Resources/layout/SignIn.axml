@@ -14,16 +14,14 @@
         android:layout_alignParentBottom="true">
         <Button
             android:text="Sign In"
-            android:layout_margin="8dp"
-            android:background="@drawable/button_transparent_white_border"
+            style="@style/TransparentButtonStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/btn_SignIn_SignIn" />
         <Button
             android:text="Register"
             android:layout_width="match_parent"
-            android:background="@drawable/button_transparent_white_border"
-            android:layout_margin="8dp"
+            style="@style/TransparentButtonStyle"
             android:layout_height="wrap_content"
             android:id="@+id/btn_SignIn_Register"
             android:layout_marginBottom="12dp" />

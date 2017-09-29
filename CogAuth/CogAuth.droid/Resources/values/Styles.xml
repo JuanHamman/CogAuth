@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+   <style name="TransparentButtonStyle">
+      <item name="android:layout_width">match_parent</item>
+      <item name="android:layout_height">60dp</item>
+      <item name="android:background">@drawable/button_transparent_white_border</item>
+		<item name="android:layout_margin">8dp</item>
+   </style>
+</resources>

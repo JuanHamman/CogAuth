@@ -15,17 +15,17 @@ public final class R {
         public static final int logo=0x7f020001;
     }
     public static final class id {
-        public static final int btnCapture=0x7f050001;
-        public static final int btnNext=0x7f050002;
-        public static final int btn_RegSuccess_Next=0x7f050003;
-        public static final int btn_RegVoice_Next=0x7f050005;
-        public static final int btn_RegVoice_Start=0x7f050004;
-        public static final int btn_RegVoice_play=0x7f050006;
-        public static final int btn_SignInVoice_Next=0x7f05000a;
-        public static final int btn_SignIn_Register=0x7f050008;
-        public static final int btn_SignIn_SignIn=0x7f050007;
-        public static final int btn_signInSuccess_Next=0x7f050009;
-        public static final int imgPhoto=0x7f050000;
+        public static final int btnCapture=0x7f060001;
+        public static final int btnNext=0x7f060002;
+        public static final int btn_RegSuccess_Next=0x7f060003;
+        public static final int btn_RegVoice_Next=0x7f060005;
+        public static final int btn_RegVoice_Start=0x7f060004;
+        public static final int btn_RegVoice_play=0x7f060006;
+        public static final int btn_SignInVoice_Next=0x7f06000a;
+        public static final int btn_SignIn_Register=0x7f060008;
+        public static final int btn_SignIn_SignIn=0x7f060007;
+        public static final int btn_signInSuccess_Next=0x7f060009;
+        public static final int imgPhoto=0x7f060000;
     }
     public static final class layout {
         public static final int registration_face=0x7f030000;
@@ -40,5 +40,8 @@ public final class R {
         public static final int ApplicationName=0x7f040001;
         public static final int Hello=0x7f040000;
         public static final int app_name=0x7f040002;
+    }
+    public static final class style {
+        public static final int TransparentButtonStyle=0x7f050000;
     }
 }

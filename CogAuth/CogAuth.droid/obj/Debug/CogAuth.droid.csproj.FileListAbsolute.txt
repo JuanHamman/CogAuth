@@ -73,3 +73,4 @@ C:/Users/Juan Laptop/Source/Repos/CogAuth/CogAuth/CogAuth.droid/obj/Debug/androi
 /Users/fredkobo/Projects/CogAuth/CogAuth/CogAuth.droid/obj/Debug/CogAuth.droid.csprojResolveAssemblyReference.cache
 /Users/fredkobo/Projects/CogAuth/CogAuth/CogAuth.droid/obj/Debug/res/drawable/button_transparent_white_border.xml
 /Users/fredkobo/Projects/CogAuth/CogAuth/CogAuth.droid/obj/Debug/res/drawable/logo.png
+/Users/fredkobo/Projects/CogAuth/CogAuth/CogAuth.droid/obj/Debug/res/values/styles.xml
