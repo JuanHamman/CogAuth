@@ -64,11 +64,8 @@ namespace CogAuth.droid
 			// aapt resource value: 0x7f040005
 			public const int btn_RegVoice_Stop = 2130968581;
 			
-			// aapt resource value: 0x7f040009
-			public const int btn_SignInFace_Next = 2130968585;
-			
-			// aapt resource value: 0x7f04000b
-			public const int btn_SignInVoice_Next = 2130968587;
+			// aapt resource value: 0x7f04000a
+			public const int btn_SignInVoice_Next = 2130968586;
 			
 			// aapt resource value: 0x7f040008
 			public const int btn_SignIn_Register = 2130968584;
@@ -76,8 +73,8 @@ namespace CogAuth.droid
 			// aapt resource value: 0x7f040007
 			public const int btn_SignIn_SignIn = 2130968583;
 			
-			// aapt resource value: 0x7f04000a
-			public const int btn_signInSuccess_Next = 2130968586;
+			// aapt resource value: 0x7f040009
+			public const int btn_signInSuccess_Next = 2130968585;
 			
 			// aapt resource value: 0x7f040000
 			public const int imgPhoto = 2130968576;
