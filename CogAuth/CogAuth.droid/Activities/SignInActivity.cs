@@ -13,7 +13,7 @@ using Android.Widget;
 namespace CogAuth.droid.Activities
 {
 
-    [Activity(Label = "SignInActivity" , MainLauncher = true)]
+    [Activity(Label = "SignInActivity" , MainLauncher = true, Theme = "@android:style/Theme.Holo.Light")]
     public class SignInActivity : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)

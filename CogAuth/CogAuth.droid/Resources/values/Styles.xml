@@ -20,4 +20,11 @@
       <item name="android:background">@drawable/button_filled_green</item>
       <item name="android:layout_margin">8dp</item>
    </style>
+
+	<style name="BlueButtonStyle">
+      <item name="android:layout_width">match_parent</item>
+      <item name="android:layout_height">60dp</item>
+      <item name="android:background">@drawable/button_filled_blue</item>
+      <item name="android:layout_margin">8dp</item>
+   </style>
 </resources>

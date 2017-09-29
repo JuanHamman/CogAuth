@@ -8,16 +8,16 @@
     <Button
         android:text="Start"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        style="@style/BlueButtonStyle"
         android:id="@+id/btn_RegVoice_Start" />
     <Button
         android:text="Next"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        style="@style/OrangeButtonStyle"
         android:id="@+id/btn_RegVoice_Next" />
     <Button
         android:text="Play"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        style="@style/GreenButtonStyle"
         android:id="@+id/btn_RegVoice_play" />
 </LinearLayout>

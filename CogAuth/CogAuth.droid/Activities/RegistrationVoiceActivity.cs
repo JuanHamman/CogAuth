@@ -18,7 +18,7 @@ using CogAuth.services.Implementation;
 
 namespace CogAuth.droid.Activities
 {
-    [Activity(Label = "RegistrationVoiceActivity")]
+    [Activity(Label = "RegistrationVoiceActivity", Theme = "@android:style/Theme.Holo.Light")]
     public class RegistrationVoiceActivity : Activity
     {
         #region Private Members

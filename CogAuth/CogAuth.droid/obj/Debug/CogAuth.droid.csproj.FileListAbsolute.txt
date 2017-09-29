@@ -77,3 +77,4 @@ C:/Users/Juan Laptop/Source/Repos/CogAuth/CogAuth/CogAuth.droid/obj/Debug/androi
 /Users/fredkobo/Projects/CogAuth/CogAuth/CogAuth.droid/obj/Debug/res/values/colors.xml
 /Users/fredkobo/Projects/CogAuth/CogAuth/CogAuth.droid/obj/Debug/res/drawable/button_filled_orange.xml
 /Users/fredkobo/Projects/CogAuth/CogAuth/CogAuth.droid/obj/Debug/res/drawable/button_filled_green.xml
+/Users/fredkobo/Projects/CogAuth/CogAuth/CogAuth.droid/obj/Debug/res/drawable/button_filled_blue.xml

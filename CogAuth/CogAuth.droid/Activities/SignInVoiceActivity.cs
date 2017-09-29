@@ -12,7 +12,7 @@ using Android.Widget;
 
 namespace CogAuth.droid.Activities
 {
-    [Activity(Label = "SignInVoice")]
+    [Activity(Label = "SignInVoice", Theme = "@android:style/Theme.Holo.Light")]
     public class SignInVoiceActivity : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)

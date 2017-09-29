@@ -46,8 +46,20 @@ namespace CogAuth.droid
 		public partial class Color
 		{
 			
+			// aapt resource value: 0x7f050003
+			public const int accent = 2131034115;
+			
 			// aapt resource value: 0x7f050000
 			public const int orange = 2131034112;
+			
+			// aapt resource value: 0x7f050001
+			public const int primary = 2131034113;
+			
+			// aapt resource value: 0x7f050002
+			public const int primaryDark = 2131034114;
+			
+			// aapt resource value: 0x7f050004
+			public const int window_background = 2131034116;
 			
 			static Color()
 			{
@@ -63,16 +75,19 @@ namespace CogAuth.droid
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int button_filled_green = 2130837504;
+			public const int button_filled_blue = 2130837504;
 			
 			// aapt resource value: 0x7f020001
-			public const int button_filled_orange = 2130837505;
+			public const int button_filled_green = 2130837505;
 			
 			// aapt resource value: 0x7f020002
-			public const int button_transparent_white_border = 2130837506;
+			public const int button_filled_orange = 2130837506;
 			
 			// aapt resource value: 0x7f020003
-			public const int logo = 2130837507;
+			public const int button_transparent_white_border = 2130837507;
+			
+			// aapt resource value: 0x7f020004
+			public const int logo = 2130837508;
 			
 			static Drawable()
 			{
@@ -188,6 +203,9 @@ namespace CogAuth.droid
 		
 		public partial class Style
 		{
+			
+			// aapt resource value: 0x7f060003
+			public const int BlueButtonStyle = 2131099651;
 			
 			// aapt resource value: 0x7f060002
 			public const int GreenButtonStyle = 2131099650;

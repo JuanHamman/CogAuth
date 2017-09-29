@@ -12,7 +12,7 @@ using Android.Widget;
 
 namespace CogAuth.droid.Activities
 {
-    [Activity(Label = "RegistrationResultActivity")]
+    [Activity(Label = "RegistrationResultActivity", Theme = "@android:style/Theme.Holo.Light")]
     public class RegistrationResultActivity : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)

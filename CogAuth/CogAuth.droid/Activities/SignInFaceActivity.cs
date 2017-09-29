@@ -17,7 +17,7 @@ using Uri = Android.Net.Uri;
 
 namespace CogAuth.droid.Activities
 {
-    [Activity(Label = "SignInFace")]
+    [Activity(Label = "SignInFace", Theme = "@android:style/Theme.Holo.Light")]
     public class SignInFaceActivity : Activity
     {
 		ImageView imgPhoto;
