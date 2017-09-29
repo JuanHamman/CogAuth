@@ -10,6 +10,7 @@ using Android.Graphics;
 using Android.OS;
 using Android.Provider;
 using Android.Widget;
+using CogAuth.droid.Commons;
 using Java.IO;
 using Environment = Android.OS.Environment;
 using Uri = Android.Net.Uri;
@@ -82,6 +83,7 @@ namespace CogAuth.droid.Activities
 				var rotatedImage = RotateImage(App.bitmap, -90);
 				imgPhoto.SetImageBitmap(rotatedImage);
 				var base64 = BitmapHelpers.ConvertBitMapToBase64String(rotatedImage);
+                commons.Instance.image = base64;
 				App.bitmap = null;
 			}
 
