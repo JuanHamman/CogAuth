@@ -10,6 +10,9 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.Media;
+using System.IO;
+using Plugin.AudioRecorder;
+using System.Threading.Tasks;
 
 namespace CogAuth.droid.Activities
 {
@@ -17,9 +20,7 @@ namespace CogAuth.droid.Activities
     public class RegistrationVoiceActivity : Activity
     {
         #region Private Members
-        MediaRecorder _recorder;
-        MediaPlayer _player;
-        string path = "/sdcard/test.3gpp";
+        AudioRecorderService recorder;
         Button btnStart, btnStop;
         #endregion
 
@@ -35,32 +36,29 @@ namespace CogAuth.droid.Activities
 
             btnStop = FindViewById<Button>(Resource.Id.btn_RegVoice_Stop);
             btnStop.Click += BtnStop_Click;
+
+            InitController();
+        }
+
+        private void InitController()
+        {
+            recorder = new AudioRecorderService
+            {
+                StopRecordingOnSilence = true, //will stop recording after 2 seconds (default)
+                StopRecordingAfterTimeout = true,  //stop recording after a max timeout (defined below)
+                TotalAudioTimeout = TimeSpan.FromSeconds(10) //audio will stop recording after 15 seconds
+            };
         }
 
         protected override void OnResume()
         {
             base.OnResume();
 
-            _recorder = new MediaRecorder();
-            _player = new MediaPlayer();
-
-            _player.Completion += (sender, e) => {
-                _player.Reset();
-                btnStart.Enabled = !btnStart.Enabled;
-            };
-
         }
 
         protected override void OnPause()
         {
             base.OnPause();
-
-            _player.Release();
-            _recorder.Release();
-            _player.Dispose();
-            _recorder.Dispose();
-            _player = null;
-            _recorder = null;
         }
         #endregion
 
@@ -71,27 +69,31 @@ namespace CogAuth.droid.Activities
         #region Events
         private void BtnStop_Click(object sender, EventArgs e)
         {
-            btnStop.Enabled = !btnStop.Enabled;
 
-            _recorder.Stop();
-            _recorder.Reset();
-
-            _player.SetDataSource(path);
-            _player.Prepare();
-            _player.Start();
         }
 
-        private void BtnStart_Click(object sender, EventArgs e)
+        private async void BtnStart_Click(object sender, EventArgs e)
         {
-            btnStop.Enabled = !btnStop.Enabled;
-            btnStart.Enabled = !btnStart.Enabled;
+            await RecordAudio();
+        }
 
-            _recorder.SetAudioSource(AudioSource.Mic);
-            _recorder.SetOutputFormat(OutputFormat.ThreeGpp);
-            _recorder.SetAudioEncoder(AudioEncoder.AmrNb);
-            _recorder.SetOutputFile(path);
-            _recorder.Prepare();
-            _recorder.Start();
+        private async Task RecordAudio()
+        {
+            try
+            {
+                if (!recorder.IsRecording)
+                {
+                    await recorder.StartRecording();
+                }
+                else
+                {
+                    await recorder.StopRecording();
+                }
+            }
+            catch (Exception ex)
+            {
+	...
+	}
         }
         #endregion
     }
