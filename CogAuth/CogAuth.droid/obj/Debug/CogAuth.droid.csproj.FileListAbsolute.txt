@@ -62,8 +62,7 @@ C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\obj\Debug\CogAut
 C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\bin\Debug\CogAuth.droid.dll.mdb
 C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\obj\Debug\android\assets\CogAuth.droid.dll.mdb
 C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\bin\Debug\CogAuth.services.dll
-C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\bin\Debug\CogAuth.services.pdb
-C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\bin\Debug\CogAuth.services.dll.mdb
 C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\obj\Debug\android\assets\CogAuth.services.dll.mdb
+C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\obj\Debug\res\layout\registrationguidelines.xml

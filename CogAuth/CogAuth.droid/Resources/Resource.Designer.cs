@@ -52,6 +52,9 @@ namespace CogAuth.droid
 			// aapt resource value: 0x7f040002
 			public const int btnNext = 2130968578;
 			
+			// aapt resource value: 0x7f040009
+			public const int btn_RegGuidlines_Guidelines = 2130968585;
+			
 			// aapt resource value: 0x7f040003
 			public const int btn_RegSuccess_Next = 2130968579;
 			
@@ -64,20 +67,32 @@ namespace CogAuth.droid
 			// aapt resource value: 0x7f040006
 			public const int btn_RegVoice_play = 2130968582;
 			
+			// aapt resource value: 0x7f04000f
+			public const int btn_SignInVoice_Next = 2130968591;
+			
+			// aapt resource value: 0x7f04000e
+			public const int btn_SignInVoice_Play = 2130968590;
+			
+			// aapt resource value: 0x7f04000d
+			public const int btn_SignInVoice_Record = 2130968589;
+			
+			// aapt resource value: 0x7f04000b
+			public const int btn_SignIn_Register = 2130968587;
+			
 			// aapt resource value: 0x7f04000a
-			public const int btn_SignInVoice_Next = 2130968586;
+			public const int btn_SignIn_SignIn = 2130968586;
+			
+			// aapt resource value: 0x7f04000c
+			public const int btn_signInSuccess_Next = 2130968588;
 			
 			// aapt resource value: 0x7f040008
-			public const int btn_SignIn_Register = 2130968584;
-			
-			// aapt resource value: 0x7f040007
-			public const int btn_SignIn_SignIn = 2130968583;
-			
-			// aapt resource value: 0x7f040009
-			public const int btn_signInSuccess_Next = 2130968585;
+			public const int edt_RegGuidelines_Username = 2130968584;
 			
 			// aapt resource value: 0x7f040000
 			public const int imgPhoto = 2130968576;
+			
+			// aapt resource value: 0x7f040007
+			public const int txt_RegGuidelines_GuideLines = 2130968583;
 			
 			static Id()
 			{
@@ -102,16 +117,19 @@ namespace CogAuth.droid
 			public const int Registration_Voice = 2130837506;
 			
 			// aapt resource value: 0x7f020003
-			public const int SignIn = 2130837507;
+			public const int RegistrationGuidelines = 2130837507;
 			
 			// aapt resource value: 0x7f020004
-			public const int SignIn_Face = 2130837508;
+			public const int SignIn = 2130837508;
 			
 			// aapt resource value: 0x7f020005
-			public const int SignIn_Success = 2130837509;
+			public const int SignIn_Face = 2130837509;
 			
 			// aapt resource value: 0x7f020006
-			public const int SignIn_Voice = 2130837510;
+			public const int SignIn_Success = 2130837510;
+			
+			// aapt resource value: 0x7f020007
+			public const int SignIn_Voice = 2130837511;
 			
 			static Layout()
 			{

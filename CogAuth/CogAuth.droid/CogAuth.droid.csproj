@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Activities\RegistrationFaceActivity.cs" />
+    <Compile Include="Activities\RegistrationGuidelinesActivity.cs" />
     <Compile Include="Activities\RegistrationResultActivity.cs" />
     <Compile Include="Activities\RegistrationVoiceActivity.cs" />
     <Compile Include="Activities\SignInActivity.cs" />
@@ -96,6 +97,9 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\SignIn.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\RegistrationGuidelines.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

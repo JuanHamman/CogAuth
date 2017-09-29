@@ -31,7 +31,7 @@ namespace CogAuth.droid.Activities
 
         private void BtnRegister_Click(object sender, EventArgs e)
         {
-            StartActivity(typeof(RegistrationFaceActivity));
+            StartActivity(typeof(RegistrationGuidelinesActivity));
         }
 
         private void BtnNext_Click(object sender, EventArgs e)

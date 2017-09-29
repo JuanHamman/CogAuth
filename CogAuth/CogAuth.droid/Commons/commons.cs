@@ -36,5 +36,7 @@ namespace CogAuth.droid.Commons
 
         public string Audio;
 
+        public string UserName;
+
     }
 }
