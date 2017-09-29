@@ -78,3 +78,6 @@ C:/Users/Juan Laptop/Source/Repos/CogAuth/CogAuth/CogAuth.droid/obj/Debug/res/la
 /Users/fredkobo/Projects/CogAuth/CogAuth/CogAuth.droid/obj/Debug/res/drawable/button_filled_orange.xml
 /Users/fredkobo/Projects/CogAuth/CogAuth/CogAuth.droid/obj/Debug/res/drawable/button_transparent_white_border.xml
 /Users/fredkobo/Projects/CogAuth/CogAuth/CogAuth.droid/obj/Debug/res/drawable/logo.png
+/Users/fredkobo/Projects/CogAuth/CogAuth/CogAuth.droid/obj/Debug/res/drawable/unicorn_pic.png
+/Users/fredkobo/Projects/CogAuth/CogAuth/CogAuth.droid/obj/Debug/res/drawable/wave.png
+/Users/fredkobo/Projects/CogAuth/CogAuth/CogAuth.droid/obj/Debug/res/drawable/unicorn.png

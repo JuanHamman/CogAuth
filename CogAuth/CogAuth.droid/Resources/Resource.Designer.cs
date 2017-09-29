@@ -89,6 +89,15 @@ namespace CogAuth.droid
 			// aapt resource value: 0x7f020004
 			public const int logo = 2130837508;
 			
+			// aapt resource value: 0x7f020005
+			public const int unicorn = 2130837509;
+			
+			// aapt resource value: 0x7f020006
+			public const int unicorn_pic = 2130837510;
+			
+			// aapt resource value: 0x7f020007
+			public const int wave = 2130837511;
+			
 			static Drawable()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
