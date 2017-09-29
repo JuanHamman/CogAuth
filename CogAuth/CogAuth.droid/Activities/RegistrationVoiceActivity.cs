@@ -24,7 +24,7 @@ namespace CogAuth.droid.Activities
         #region Private Members
         AudioRecorderService recorder;
         MediaPlayer player;
-        Button btnStart, btnPlay , btnNext;
+        Button btnStart, btnPlay, btnNext;
         private string Path;
         AlertDialog RegResultDialog;
         #endregion
@@ -48,14 +48,17 @@ namespace CogAuth.droid.Activities
             InitController();
         }
 
-       
+
 
         private void InitController()
         {
             recorder = new AudioRecorderService
             {
                 StopRecordingOnSilence = true, //will stop recording after 2 seconds (default)
-                StopRecordingAfterTimeout = false,  //stop recording after a max timeout (defined below)                    
+                StopRecordingAfterTimeout = false,  //stop recording after a max timeout (defined below)
+
+                PreferredSampleRate = 16000,
+
                 TotalAudioTimeout = TimeSpan.FromSeconds(10) //audio will stop recording after 15 seconds
             };
         }
@@ -78,6 +81,7 @@ namespace CogAuth.droid.Activities
             recorder = new AudioRecorderService
             {
                 StopRecordingOnSilence = false,
+                PreferredSampleRate = 16000,
                 StopRecordingAfterTimeout = false
             };
 
@@ -116,8 +120,6 @@ namespace CogAuth.droid.Activities
 
                     String encoded = Android.Util.Base64.EncodeToString(bytes, 0);
 
-                   
-
                     commons.Instance.Audio = encoded;
                 }
             }
@@ -148,6 +150,7 @@ namespace CogAuth.droid.Activities
 
                     //the returned Task here will complete once recording is finished
                     var recordTask = await recorder.StartRecording();
+
 
                     btnStart.Text = "Stop";
                     btnStart.Enabled = true;
@@ -218,23 +221,30 @@ namespace CogAuth.droid.Activities
         {
             try
             {
+                ProgressDialog pd = new ProgressDialog(this);
+                pd.SetMessage("Fazureing...");                
+                pd.Show();
                 
-
                 UserService us = new UserService();
-               var result =  await us.RegisterUser(commons.Instance.image, commons.Instance.Audio.ToString(), "TestName");
-                if(result)
+                var result = await us.RegisterUser(commons.Instance.image, commons.Instance.Audio.ToString(),commons.Instance.UserName);
+                if (result)
                 {
                     StartActivity(typeof(RegistrationResultActivity));
+                    commons.Instance.Audio = "";
+                    commons.Instance.image = "";
+                    commons.Instance.UserName = "";
+                    pd.Hide();
                 }
                 else
                 {
+                    pd.Hide();
                     RegResultDialog = new AlertDialog.Builder(this)
 
-            .SetCancelable(false)
-            .SetTitle("Registration failed")
-            .SetMessage("Registration failed, please try again")
-            .SetPositiveButton("Ok", RegDialogPositive)
-            .Create();
+                       .SetCancelable(false)
+                       .SetTitle("Registration failed")
+                       .SetMessage("Registration failed, please try again")
+                       .SetPositiveButton("Ok", RegDialogPositive)
+                       .Create();
 
                     RegResultDialog.Show();
                 }
@@ -243,7 +253,7 @@ namespace CogAuth.droid.Activities
             {
                 return;
             }
-          
+
         }
 
         private void RegDialogPositive(object sender, DialogClickEventArgs e)

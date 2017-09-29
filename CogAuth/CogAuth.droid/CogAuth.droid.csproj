@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Activities\RegistrationFaceActivity.cs" />
+    <Compile Include="Activities\RegistrationGuidelinesActivity.cs" />
     <Compile Include="Activities\RegistrationResultActivity.cs" />
     <Compile Include="Activities\RegistrationVoiceActivity.cs" />
     <Compile Include="Activities\SignInActivity.cs" />
@@ -98,13 +99,9 @@
     <AndroidResource Include="Resources\layout\SignIn.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
-    <AndroidResource Include="Resources\drawable\button_transparent_white_border.xml" />
-    <AndroidResource Include="Resources\drawable\logo.png" />
-    <AndroidResource Include="Resources\values\Styles.xml" />
-    <AndroidResource Include="Resources\values\Colors.xml" />
-    <AndroidResource Include="Resources\drawable\button_filled_orange.xml" />
-    <AndroidResource Include="Resources\drawable\button_filled_green.xml" />
-    <AndroidResource Include="Resources\drawable\button_filled_blue.xml" />
+    <AndroidResource Include="Resources\layout\RegistrationGuidelines.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\values\Strings.xml" />

@@ -4,20 +4,25 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:minWidth="25px"
-    android:minHeight="25px">
-    <Button
-        android:text="Record"
+    android:minHeight="25px"
+    android:gravity="bottom">
+    <TextView
+        android:id="@+id/txt_RegGuidelines_GuideLines"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btn_SignInVoice_Record" />
-    <Button
-        android:text="Play"
+        android:text="* When taking photo please make sure your face us in the middle of the screen." />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Please enter username" />
+    <EditText
+        android:id="@+id/edt_RegGuidelines_Username"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btn_SignInVoice_Play" />
+        android:hint="User name" />
     <Button
         android:text="Next"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btn_SignInVoice_Next" />
+        android:id="@+id/btn_RegGuidlines_Guidelines" />
 </LinearLayout>

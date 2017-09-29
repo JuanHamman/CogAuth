@@ -2,7 +2,7 @@
 <xs:schema xmlns:android="http://schemas.android.com/apk/res/android" attributeFormDefault="qualified" targetNamespace="http://schemas.android.com/apk/res/android" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>v25</xs:documentation>
-    <xs:documentation>2017/09/29 12:52:45 PM</xs:documentation>
+    <xs:documentation>2017/09/29 4:44:57 PM</xs:documentation>
   </xs:annotation>
   <xs:attribute name="accessibilityLiveRegion">
     <xs:annotation>
@@ -16918,9 +16918,14 @@
             <xs:enumeration value="@id/btn_SignIn_SignIn" />
             <xs:enumeration value="@id/btn_signInSuccess_Next" />
             <xs:enumeration value="@id/btn_SignInVoice_Next" />
+            <xs:enumeration value="@id/btn_SignInVoice_Play" />
+            <xs:enumeration value="@id/btn_SignInVoice_Record" />
             <xs:enumeration value="@id/btnCapture" />
             <xs:enumeration value="@id/btnNext" />
+            <xs:enumeration value="@id/button1" />
+            <xs:enumeration value="@id/edt_RegGuidelines_Username" />
             <xs:enumeration value="@id/imgPhoto" />
+            <xs:enumeration value="@id/txt_RegGuidelines_GuideLines" />
             <xs:enumeration value="@android:id/accessibilityActionContextClick" />
             <xs:enumeration value="@android:id/accessibilityActionScrollDown" />
             <xs:enumeration value="@android:id/accessibilityActionScrollLeft" />
