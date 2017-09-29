@@ -4,7 +4,7 @@
     android:layout_height="match_parent">
     <ImageView
         android:id="@+id/imgPhoto"
-        android:src="@android:drawable/ic_menu_gallery"
+        android:src="@drawable/unicorn_pic"
         android:adjustViewBounds="true"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
@@ -18,11 +18,13 @@
             android:id="@+id/btnCapture"
             android:layout_width="match_parent"
             android:layout_height="60dp"
+            style="@style/OrangeButtonStyle"
             android:layout_alignParentBottom="true"
             android:text="Capture" />
         <Button
             android:id="@+id/btnNext"
             android:layout_width="match_parent"
+            style="@style/GreenButtonStyle"
             android:layout_height="60dp"
             android:layout_alignParentBottom="true"
             android:text="Next" />

@@ -5,19 +5,25 @@
     android:layout_height="match_parent"
     android:minWidth="25px"
     android:minHeight="25px">
-    <Button
-        android:text="Record"
+    <ImageView
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="100dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="150dp"
+        android:src="@drawable/wave" />
+    <Button
+        android:text="Start"
+        android:layout_width="match_parent"
+        style="@style/BlueButtonStyle"
         android:id="@+id/btn_SignInVoice_Record" />
-    <Button
-        android:text="Play"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/btn_SignInVoice_Play" />
     <Button
         android:text="Next"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        style="@style/OrangeButtonStyle"
+        android:id="@+id/btn_SignInVoice_Play" />
+    <Button
+        android:text="Play"
+        android:layout_width="match_parent"
+        style="@style/GreenButtonStyle"
         android:id="@+id/btn_SignInVoice_Next" />
 </LinearLayout>
