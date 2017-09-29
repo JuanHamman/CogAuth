@@ -1,26 +1,31 @@
-/Users/fredkobo/Projects/CogAuth/CogAuth/CogAuth.droid/obj/Debug/android/assets/CogAuth.droid.dll
-/Users/fredkobo/Projects/CogAuth/CogAuth/CogAuth.droid/obj/Debug/android/assets/CogAuth.services.dll
-/Users/fredkobo/Projects/CogAuth/CogAuth/CogAuth.droid/obj/Debug/android/assets/Java.Interop.dll
-/Users/fredkobo/Projects/CogAuth/CogAuth/CogAuth.droid/obj/Debug/android/assets/Microsoft.CSharp.dll
-/Users/fredkobo/Projects/CogAuth/CogAuth/CogAuth.droid/obj/Debug/android/assets/Mono.Android.dll
-/Users/fredkobo/Projects/CogAuth/CogAuth/CogAuth.droid/obj/Debug/android/assets/System.Core.dll
-/Users/fredkobo/Projects/CogAuth/CogAuth/CogAuth.droid/obj/Debug/android/assets/System.dll
-/Users/fredkobo/Projects/CogAuth/CogAuth/CogAuth.droid/obj/Debug/android/assets/System.Xml.dll
-/Users/fredkobo/Projects/CogAuth/CogAuth/CogAuth.droid/obj/Debug/android/assets/System.Xml.Linq.dll
-/Users/fredkobo/Projects/CogAuth/CogAuth/CogAuth.droid/obj/Debug/android/assets/mscorlib.dll
-/Users/fredkobo/Projects/CogAuth/CogAuth/CogAuth.droid/obj/Debug/android/assets/Plugin.AudioRecorder.dll
-/Users/fredkobo/Projects/CogAuth/CogAuth/CogAuth.droid/obj/Debug/android/assets/System.Net.Http.dll
-/Users/fredkobo/Projects/CogAuth/CogAuth/CogAuth.droid/obj/Debug/android/assets/System.Runtime.dll
-/Users/fredkobo/Projects/CogAuth/CogAuth/CogAuth.droid/obj/Debug/android/assets/System.ComponentModel.Composition.dll
-/Users/fredkobo/Projects/CogAuth/CogAuth/CogAuth.droid/obj/Debug/android/assets/System.Threading.dll
-/Users/fredkobo/Projects/CogAuth/CogAuth/CogAuth.droid/obj/Debug/android/assets/System.Collections.dll
-/Users/fredkobo/Projects/CogAuth/CogAuth/CogAuth.droid/obj/Debug/android/assets/System.Collections.Concurrent.dll
-/Users/fredkobo/Projects/CogAuth/CogAuth/CogAuth.droid/obj/Debug/android/assets/System.Reflection.dll
-/Users/fredkobo/Projects/CogAuth/CogAuth/CogAuth.droid/obj/Debug/android/assets/System.Diagnostics.Debug.dll
-/Users/fredkobo/Projects/CogAuth/CogAuth/CogAuth.droid/obj/Debug/android/assets/System.Linq.dll
-/Users/fredkobo/Projects/CogAuth/CogAuth/CogAuth.droid/obj/Debug/android/assets/System.Runtime.InteropServices.dll
-/Users/fredkobo/Projects/CogAuth/CogAuth/CogAuth.droid/obj/Debug/android/assets/System.Runtime.Extensions.dll
-/Users/fredkobo/Projects/CogAuth/CogAuth/CogAuth.droid/obj/Debug/android/assets/System.Reflection.Extensions.dll
-/Users/fredkobo/Projects/CogAuth/CogAuth/CogAuth.droid/obj/Debug/android/assets/System.Runtime.Serialization.dll
-/Users/fredkobo/Projects/CogAuth/CogAuth/CogAuth.droid/obj/Debug/android/assets/System.ServiceModel.Internals.dll
-/Users/fredkobo/Projects/CogAuth/CogAuth/CogAuth.droid/obj/Debug/android/assets/Mono.Security.dll
+C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\obj\Debug\android\assets\CogAuth.droid.dll
+C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\obj\Debug\android\assets\CogAuth.services.dll
+C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\obj\Debug\android\assets\Java.Interop.dll
+C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\obj\Debug\android\assets\Microsoft.CSharp.dll
+C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\obj\Debug\android\assets\Mono.Android.dll
+C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\obj\Debug\android\assets\System.Core.dll
+C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\obj\Debug\android\assets\System.dll
+C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\obj\Debug\android\assets\System.Xml.dll
+C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\obj\Debug\android\assets\System.Xml.Linq.dll
+C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\obj\Debug\android\assets\mscorlib.dll
+C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\obj\Debug\android\assets\Plugin.AudioRecorder.dll
+C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\obj\Debug\android\assets\System.Net.Http.dll
+C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\obj\Debug\android\assets\Newtonsoft.Json.dll
+C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\obj\Debug\android\assets\System.Numerics.dll
+C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\obj\Debug\android\assets\System.Data.dll
+C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\obj\Debug\android\assets\System.Transactions.dll
+C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\obj\Debug\android\assets\Mono.Data.Tds.dll
+C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\obj\Debug\android\assets\Mono.Security.dll
+C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\obj\Debug\android\assets\System.Runtime.Serialization.dll
+C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\obj\Debug\android\assets\System.ServiceModel.Internals.dll
+C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\obj\Debug\android\assets\System.Runtime.dll
+C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\obj\Debug\android\assets\System.ComponentModel.Composition.dll
+C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\obj\Debug\android\assets\System.Threading.dll
+C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\obj\Debug\android\assets\System.Collections.dll
+C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\obj\Debug\android\assets\System.Collections.Concurrent.dll
+C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\obj\Debug\android\assets\System.Reflection.dll
+C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\obj\Debug\android\assets\System.Diagnostics.Debug.dll
+C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\obj\Debug\android\assets\System.Linq.dll
+C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\obj\Debug\android\assets\System.Runtime.InteropServices.dll
+C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\obj\Debug\android\assets\System.Runtime.Extensions.dll
+C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\obj\Debug\android\assets\System.Reflection.Extensions.dll

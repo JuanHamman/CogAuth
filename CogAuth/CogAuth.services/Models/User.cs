@@ -9,5 +9,7 @@ namespace CogAuth.services.Models
    public class User
     {
         public string Token { get; set; }
+
+        public string UserName { get; set; }
     }
 }

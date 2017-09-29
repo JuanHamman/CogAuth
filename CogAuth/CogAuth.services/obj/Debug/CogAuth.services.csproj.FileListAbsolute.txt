@@ -1,11 +1,3 @@
-C:/Users/Juan Laptop/Source/Repos/CogAuth/CogAuth/CogAuth.services/bin/Debug/CogAuth.services.dll
-C:/Users/Juan Laptop/Source/Repos/CogAuth/CogAuth/CogAuth.services/bin/Debug/CogAuth.services.pdb
-C:/Users/Juan Laptop/Source/Repos/CogAuth/CogAuth/CogAuth.services/bin/Debug/Newtonsoft.Json.dll
-C:/Users/Juan Laptop/Source/Repos/CogAuth/CogAuth/CogAuth.services/bin/Debug/Newtonsoft.Json.xml
-C:/Users/Juan Laptop/Source/Repos/CogAuth/CogAuth/CogAuth.services/obj/Debug/CogAuth.services.csproj.CoreCompileInputs.cache
-C:/Users/Juan Laptop/Source/Repos/CogAuth/CogAuth/CogAuth.services/obj/Debug/CogAuth.services.dll
-C:/Users/Juan Laptop/Source/Repos/CogAuth/CogAuth/CogAuth.services/obj/Debug/CogAuth.services.pdb
-C:/Users/Juan Laptop/Source/Repos/CogAuth/CogAuth/CogAuth.services/obj/Debug/CogAuth.services.csprojResolveAssemblyReference.cache
 /Users/fredkobo/Projects/CogAuth/CogAuth/CogAuth.services/bin/Debug/CogAuth.services.dll
 /Users/fredkobo/Projects/CogAuth/CogAuth/CogAuth.services/bin/Debug/CogAuth.services.pdb
 /Users/fredkobo/Projects/CogAuth/CogAuth/CogAuth.services/bin/Debug/Newtonsoft.Json.dll
@@ -14,3 +6,11 @@ C:/Users/Juan Laptop/Source/Repos/CogAuth/CogAuth/CogAuth.services/obj/Debug/Cog
 /Users/fredkobo/Projects/CogAuth/CogAuth/CogAuth.services/obj/Debug/CogAuth.services.csproj.CoreCompileInputs.cache
 /Users/fredkobo/Projects/CogAuth/CogAuth/CogAuth.services/obj/Debug/CogAuth.services.dll
 /Users/fredkobo/Projects/CogAuth/CogAuth/CogAuth.services/obj/Debug/CogAuth.services.pdb
+C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.services\bin\Debug\CogAuth.services.dll
+C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.services\bin\Debug\CogAuth.services.pdb
+C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.services\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.services\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.services\obj\Debug\CogAuth.services.csproj.CoreCompileInputs.cache
+C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.services\obj\Debug\CogAuth.services.dll
+C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.services\obj\Debug\CogAuth.services.pdb
+C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.services\obj\Debug\CogAuth.services.csprojResolveAssemblyReference.cache

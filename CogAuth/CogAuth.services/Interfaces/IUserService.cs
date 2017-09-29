@@ -11,6 +11,6 @@ namespace CogAuth.services.Interfaces
     {
         Task<bool> RegisterUser(string Photo, string Audio , string Name);
 
-        Task<bool> SignIn(string Photo, string Audio , string Name);
+        Task<User> SignIn(string Photo, string Audio , string Name);
     }
 }

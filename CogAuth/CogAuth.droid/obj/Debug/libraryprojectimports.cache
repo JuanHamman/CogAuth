@@ -2,13 +2,13 @@
 <Paths>
   <Jars></Jars>
   <ResolvedResourceDirectories>
-    <ResolvedResourceDirectory>/Users/fredkobo/Projects/CogAuth/CogAuth/CogAuth.droid/obj/Debug/__library_projects__/Plugin.AudioRecorder/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\obj\Debug\__library_projects__\Plugin.AudioRecorder\library_project_imports\res</ResolvedResourceDirectory>
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
-    <ResolvedAssetDirectory>obj/Debug/__library_projects__/Plugin.AudioRecorder/library_project_imports/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\__library_projects__\Plugin.AudioRecorder\library_project_imports\assets</ResolvedAssetDirectory>
   </ResolvedAssetDirectories>
   <ResolvedEnvironmentFiles />
   <ResolvedResourceDirectoryStamps>
-    <ResolvedResourceDirectoryStamp>/Users/fredkobo/Projects/CogAuth/CogAuth/CogAuth.droid/obj/Debug/__library_projects__/Plugin.AudioRecorder.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\obj\Debug\__library_projects__\Plugin.AudioRecorder.stamp</ResolvedResourceDirectoryStamp>
   </ResolvedResourceDirectoryStamps>
 </Paths>

@@ -4,5 +4,6 @@
     <SelectedDevice>Samsung SM-G570F</SelectedDevice>
     <DefaultDevice>Android_7_API</DefaultDevice>
     <AndroidDesignerPreferredDevice>Nexus 4</AndroidDesignerPreferredDevice>
+    <ProjectView>ProjectFiles</ProjectView>
   </PropertyGroup>
 </Project>
