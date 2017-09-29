@@ -32,9 +32,6 @@ namespace CogAuth.droid.Commons
         }
         #endregion
 
-        public string image;
-
-
-
+       public byte[] AudioPath;
     }
 }

@@ -9,7 +9,7 @@ namespace CogAuth.services.Interfaces
 {
     public interface IUserService
     {
-        Task<User> RegisterUser(string Photo, string Audio);
+        Task<User> RegisterUser(string Photo, string Audio , string Name);
 
         Task<User> SignIn(string Photo, string Audio);
     }
