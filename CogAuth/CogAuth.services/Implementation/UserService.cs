@@ -12,7 +12,7 @@ namespace CogAuth.services.Implementation
 {
     public class UserService : IUserService
     {
-        public async Task<User> RegisterUser(string Photo, string Audio)
+        public async Task<User> RegisterUser(string Photo, string Audio , string name)
         {
             using (var client = new HttpClient())
             {

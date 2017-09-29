@@ -39,3 +39,5 @@ C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\obj\Debug\R.cs.f
 C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\obj\Debug\uploadflags.txt
 C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\bin\Debug\CogAuth.droid.dll.mdb
 C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\obj\Debug\android\assets\CogAuth.droid.dll.mdb
+C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\bin\Debug\Plugin.AudioRecorder.dll
+C:\Users\Juan Laptop\Source\Repos\CogAuth\CogAuth\CogAuth.droid\bin\Debug\Plugin.AudioRecorder.xml

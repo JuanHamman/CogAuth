@@ -13,6 +13,7 @@ using Android.Media;
 using System.IO;
 using Plugin.AudioRecorder;
 using System.Threading.Tasks;
+using CogAuth.droid.Commons;
 
 namespace CogAuth.droid.Activities
 {
@@ -21,7 +22,9 @@ namespace CogAuth.droid.Activities
     {
         #region Private Members
         AudioRecorderService recorder;
-        Button btnStart, btnStop;
+        MediaPlayer player;
+        Button btnStart, btnPlay;
+        private string Path;
         #endregion
 
         #region Overrides
@@ -34,18 +37,20 @@ namespace CogAuth.droid.Activities
             btnStart = FindViewById<Button>(Resource.Id.btn_RegVoice_Start);
             btnStart.Click += BtnStart_Click;
 
-            btnStop = FindViewById<Button>(Resource.Id.btn_RegVoice_Stop);
-            btnStop.Click += BtnStop_Click;
+            btnPlay = FindViewById<Button>(Resource.Id.btn_RegVoice_play);
+            btnPlay.Click += BtnPlay_Click; ;
 
             InitController();
         }
+
+
 
         private void InitController()
         {
             recorder = new AudioRecorderService
             {
                 StopRecordingOnSilence = true, //will stop recording after 2 seconds (default)
-                StopRecordingAfterTimeout = true,  //stop recording after a max timeout (defined below)
+                StopRecordingAfterTimeout = false,  //stop recording after a max timeout (defined below)                    
                 TotalAudioTimeout = TimeSpan.FromSeconds(10) //audio will stop recording after 15 seconds
             };
         }
@@ -60,41 +65,147 @@ namespace CogAuth.droid.Activities
         {
             base.OnPause();
         }
+
+        protected override void OnStart()
+        {
+            base.OnStart();
+
+            recorder = new AudioRecorderService
+            {
+                StopRecordingOnSilence = false,
+                StopRecordingAfterTimeout = false
+            };
+
+            //alternative event-based API can be used here in lieu of the returned recordTask used below
+            //recorder.AudioInputReceived += Recorder_AudioInputReceived;
+
+            player = new MediaPlayer();
+            player.Completion += Player_Completion;
+
+            btnStart.Enabled = true;
+
+        }
+
+        private void Player_Completion(object sender, EventArgs e)
+        {
+            player.Stop();
+
+            this.Path = recorder.GetAudioFilePath();
+
+            ConvertAudioToArray(this.Path);
+
+            btnStart.Enabled = true;
+            btnPlay.Enabled = true;
+        }
+
+        private void ConvertAudioToArray(string path)
+        {
+            using (var streamReader = new StreamReader(path))
+            {
+                var bytes = default(byte[]);
+                using (var memstream = new MemoryStream())
+                {
+                    streamReader.BaseStream.CopyTo(memstream);
+                    bytes = memstream.ToArray();
+                    commons.Instance.AudioPath = bytes;
+                }
+            }
+        }
         #endregion
 
         #region Methods
-
-        #endregion
-
-        #region Events
-        private void BtnStop_Click(object sender, EventArgs e)
+        void Recorder_AudioInputReceived(object sender, string audioFile)
         {
+            RunOnUiThread(() =>
+            {
+                btnStart.Text = "Record";
 
+                btnStart.Enabled = !string.IsNullOrEmpty(audioFile);
+            });
         }
 
-        private async void BtnStart_Click(object sender, EventArgs e)
-        {
-            await RecordAudio();
-        }
-
-        private async Task RecordAudio()
+        async Task RecordAudio()
         {
             try
             {
                 if (!recorder.IsRecording)
                 {
-                    await recorder.StartRecording();
+                    // recorder.StopRecordingOnSilence = checkTimeout.Checked;
+
+                    btnStart.Enabled = false;
+
+
+                    //the returned Task here will complete once recording is finished
+                    var recordTask = await recorder.StartRecording();
+
+                    btnStart.Text = "Stop";
+                    btnStart.Enabled = true;
+
+                    var audioFile = await recordTask;
+
+                    //audioFile will contain the path to the recorded audio file
+
+                    btnStart.Text = "Record";
+
+                    btnStart.Enabled = !string.IsNullOrEmpty(audioFile);
                 }
                 else
                 {
+                    btnStart.Enabled = false;
+
                     await recorder.StopRecording();
+
+                    btnStart.Text = "Record";
+                    btnStart.Enabled = true;
                 }
             }
             catch (Exception ex)
             {
-	...
-	}
+                //blow up the app!
+                throw;
+            }
         }
+
+        async Task PlayRecordedAudio()
+        {
+            try
+            {
+                btnStart.Enabled = false;
+                btnPlay.Enabled = false;
+
+                var filePath = recorder.GetAudioFilePath();
+
+                if (filePath != null)
+                {
+                    player.Reset();
+                    await player.SetDataSourceAsync(filePath);
+                    player.Prepare();
+                    player.Start();
+                }
+            }
+            catch (Exception ex)
+            {
+                //blow up the app!
+                throw ex;
+            }
+        }
+
         #endregion
+
+        #region Events
+        private async void BtnPlay_Click(object sender, EventArgs e)
+        {
+            await PlayRecordedAudio();
+        }
+
+        private async void BtnStart_Click(object sender, EventArgs e)
+        {
+            btnStart.Enabled = false;
+            await RecordAudio();
+        }
+
+
     }
+    #endregion
+
 }

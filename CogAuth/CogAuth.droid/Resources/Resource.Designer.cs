@@ -26,6 +26,8 @@ namespace CogAuth.droid
 		
 		public static void UpdateIdValues()
 		{
+			global::Plugin.AudioRecorder.Resource.String.ApplicationName = global::CogAuth.droid.Resource.String.ApplicationName;
+			global::Plugin.AudioRecorder.Resource.String.Hello = global::CogAuth.droid.Resource.String.Hello;
 		}
 		
 		public partial class Attribute
@@ -50,14 +52,14 @@ namespace CogAuth.droid
 			// aapt resource value: 0x7f040001
 			public const int btn_RegSuccess_Next = 2130968577;
 			
-			// aapt resource value: 0x7f040004
-			public const int btn_RegVoice_Next = 2130968580;
+			// aapt resource value: 0x7f040003
+			public const int btn_RegVoice_Next = 2130968579;
 			
 			// aapt resource value: 0x7f040002
 			public const int btn_RegVoice_Start = 2130968578;
 			
-			// aapt resource value: 0x7f040003
-			public const int btn_RegVoice_Stop = 2130968579;
+			// aapt resource value: 0x7f040004
+			public const int btn_RegVoice_play = 2130968580;
 			
 			// aapt resource value: 0x7f040007
 			public const int btn_SignInFace_Next = 2130968583;
@@ -121,8 +123,14 @@ namespace CogAuth.droid
 		public partial class String
 		{
 			
+			// aapt resource value: 0x7f030001
+			public const int ApplicationName = 2130903041;
+			
 			// aapt resource value: 0x7f030000
-			public const int app_name = 2130903040;
+			public const int Hello = 2130903040;
+			
+			// aapt resource value: 0x7f030002
+			public const int app_name = 2130903042;
 			
 			static String()
 			{
