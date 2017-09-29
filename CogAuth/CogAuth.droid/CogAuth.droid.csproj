@@ -112,6 +112,7 @@
     </AndroidResource>
     <AndroidResource Include="Resources\drawable\wave.png" />
     <AndroidResource Include="Resources\drawable\unicorn.png" />
+    <AndroidResource Include="Resources\drawable\happy.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\values\Strings.xml" />

@@ -94,3 +94,4 @@ C:/Users/Juan Laptop/Source/Repos/CogAuth/CogAuth/CogAuth.droid/obj/Debug/androi
 /Users/fredkobo/Projects/CogAuth/CogAuth/CogAuth.droid/obj/Debug/res/drawable/wave.png
 /Users/fredkobo/Projects/CogAuth/CogAuth/CogAuth.droid/obj/Debug/res/drawable/unicorn.png
 /Users/fredkobo/Projects/CogAuth/CogAuth/CogAuth.droid/obj/Debug/res/drawable/background.png
+/Users/fredkobo/Projects/CogAuth/CogAuth/CogAuth.droid/obj/Debug/res/drawable/happy.png
