@@ -99,7 +99,9 @@ class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		/* We need to ensure that "CogAuth.droid.dll" comes first in this list. */
 		"CogAuth.droid.dll",
+		"CogAuth.services.dll",
 		"Plugin.AudioRecorder.dll",
+		"Newtonsoft.Json.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};

@@ -14,6 +14,7 @@ using System.IO;
 using Plugin.AudioRecorder;
 using System.Threading.Tasks;
 using CogAuth.droid.Commons;
+using CogAuth.services.Implementation;
 
 namespace CogAuth.droid.Activities
 {
@@ -23,8 +24,9 @@ namespace CogAuth.droid.Activities
         #region Private Members
         AudioRecorderService recorder;
         MediaPlayer player;
-        Button btnStart, btnPlay;
+        Button btnStart, btnPlay , btnNext;
         private string Path;
+        AlertDialog RegResultDialog;
         #endregion
 
         #region Overrides
@@ -38,12 +40,15 @@ namespace CogAuth.droid.Activities
             btnStart.Click += BtnStart_Click;
 
             btnPlay = FindViewById<Button>(Resource.Id.btn_RegVoice_play);
-            btnPlay.Click += BtnPlay_Click; ;
+            btnPlay.Click += BtnPlay_Click;
+
+            btnNext = FindViewById<Button>(Resource.Id.btn_RegVoice_Next);
+            btnNext.Click += BtnNext_Click;
 
             InitController();
         }
 
-
+       
 
         private void InitController()
         {
@@ -107,7 +112,13 @@ namespace CogAuth.droid.Activities
                 {
                     streamReader.BaseStream.CopyTo(memstream);
                     bytes = memstream.ToArray();
-                    commons.Instance.AudioPath = bytes;
+
+
+                    String encoded = Android.Util.Base64.EncodeToString(bytes, 0);
+
+                   
+
+                    commons.Instance.Audio = encoded;
                 }
             }
         }
@@ -203,8 +214,42 @@ namespace CogAuth.droid.Activities
             btnStart.Enabled = false;
             await RecordAudio();
         }
+        private async void BtnNext_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                
 
+                UserService us = new UserService();
+               var result =  await us.RegisterUser(commons.Instance.image, commons.Instance.Audio.ToString(), "TestName");
+                if(result)
+                {
+                    StartActivity(typeof(RegistrationResultActivity));
+                }
+                else
+                {
+                    RegResultDialog = new AlertDialog.Builder(this)
 
+            .SetCancelable(false)
+            .SetTitle("Registration failed")
+            .SetMessage("Registration failed, please try again")
+            .SetPositiveButton("Ok", RegDialogPositive)
+            .Create();
+
+                    RegResultDialog.Show();
+                }
+            }
+            catch (Exception ex)
+            {
+                return;
+            }
+          
+        }
+
+        private void RegDialogPositive(object sender, DialogClickEventArgs e)
+        {
+            StartActivity(typeof(SignInActivity));
+        }
     }
     #endregion
 

@@ -12,27 +12,59 @@ namespace CogAuth.services.Implementation
 {
     public class UserService : IUserService
     {
-        public async Task<User> RegisterUser(string Photo, string Audio , string name)
+        public async Task<bool> RegisterUser(string Photo, string Audio , string name)
         {
-            using (var client = new HttpClient())
-            {
-                string content = "?Photo=" + Photo + "Audio=" + Audio;
+            var regDic = new List<KeyValuePair<string, string>>();
+            regDic.Add(new KeyValuePair<string, string>("name", name));
+            regDic.Add(new KeyValuePair<string, string>("imageData", Photo));
 
-                var response = await client.GetStringAsync("URI" + content);
-                var coverage = JsonConvert.DeserializeObject<UserData>(response);
-                return coverage.data;
+            var content = "";
+            foreach (var keyvalue in regDic)
+            {
+                content += keyvalue.Key + "=" + keyvalue.Value + "&";
+            }
+            content = content.Remove(content.Length - 1, 1);
+
+            HttpContent contentstr = new StringContent(content.ToString());
+            contentstr.Headers.ContentType.MediaType = "application/x-www-form-urlencoded";
+
+            var client = new HttpClient();
+            var res = await client.PostAsync("http://jpmeyer.xyz/faceapi/register/", contentstr);
+            if (res.StatusCode == System.Net.HttpStatusCode.OK)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
             }
         }
 
-        public async Task<User> SignIn(string Photo, string Audio)
+        public async Task<bool> SignIn(string Photo, string Audio , string name)
         {
-            using (var client = new HttpClient())
-            {
-                string content = "?Photo=" + Photo + "Audio=" + Audio;
+            var regDic = new List<KeyValuePair<string, string>>();
+            regDic.Add(new KeyValuePair<string, string>("name", name));
+            regDic.Add(new KeyValuePair<string, string>("imageData", Photo));
 
-                var response = await client.GetStringAsync("URI" + content);
-                var coverage = JsonConvert.DeserializeObject<UserData>(response);
-                return coverage.data;
+            var content = "";
+            foreach (var keyvalue in regDic)
+            {
+                content += keyvalue.Key + "=" + keyvalue.Value + "&";
+            }
+            content = content.Remove(content.Length - 1, 1);
+
+            HttpContent contentstr = new StringContent(content.ToString());
+            contentstr.Headers.ContentType.MediaType = "application/x-www-form-urlencoded";
+
+            var client = new HttpClient();
+            var res = await client.PostAsync("http://jpmeyer.xyz/faceapi/register/", contentstr);
+            if (res.StatusCode == System.Net.HttpStatusCode.OK)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
             }
         }
     }
